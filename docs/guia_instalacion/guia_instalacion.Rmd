@@ -1,0 +1,63 @@
+---
+runningheader: 'Antes de comenzar'
+title: 'Guía de intalación de R y RStudio'
+author: "Mario Gavidia-Calderón"
+date: "2023-11-17"    
+output: 
+  tufte::tufte_handout: default
+  tufte::tufte_html: default
+---
+
+```{r setup, include=FALSE}
+# knitr::opts_chunk$set(echo = TRUE)
+library(tufte)
+# invalidate cache when the tufte version changes
+knitr::opts_chunk$set(cache.extra = packageVersion('tufte'))
+options(htmltools.dir.version = FALSE)
+```
+
+
+Antes de comenzar las clases tenemos que instalar las herramientas que utilizaremos.
+Sólo vamos a utilizar [**R**](https://cran.r-project.org/) e [**RStudio**](https://posit.co/download/rstudio-desktop/).
+**R** es "un ambiente de programación para computación estadística y gráfica". 
+Por otro lado, **RStudio** es um [ambiente de  desarrollo integrado](https://es.wikipedia.org/wiki/Entorno_de_desarrollo_integrado) (IDE, del inglés _Integrated Development Environment_) especialemente para **R**.
+**RStudio** nos permitirá interactuar mejor con R y hacer nuestro trabajo más sencillo.
+
+Las Instalaciones en Windows son directas y (creo) sencillas. En Linux tiene unos pasos extras pero la estratégia de instalación es la misma: **Primero instalamos R y luego instalamos RStudio**. ^[Aquí no funciona la propiedad conmutativa.]
+
+En este pequeño documento detallamos como instalar estos programas en Windows. Para los interesados en instalarlos en Linux pueden [seguir este tutorial](https://linuxconfig.org/how-to-install-rstudio-on-ubuntu-20-04-focal-fossa-linux) o escribrime ^[Mi e-mail es: mario.calderon@iag.usp.br] si quieren instalar en otros sistemas operativos (como [Solaris](https://es.wikipedia.org/wiki/Solaris_(sistema_operativo))).
+
+# Instalación en Windows
+
+## Instalando R
+
+Vamos a usar la última versión estable, la 4.3.2.
+
+- Ir para [https://cran.r-project.org/bin/windows/base/](https://cran.r-project.org/bin/windows/base/).
+- Click en _**Download R-4.3.2 for Windows**_.
+    - El nombre del archivo es **R-4.3.2-win.exe**.
+- Utilizaremos la instalación por defecto. Vamos a clickar en _Next_ hasta terminar la instalación.
+- Si todo salió bien, aparecerá el ícono de R en el escritorio. :)
+
+## Instalando RStudio Desktop
+
+Una vez instalado R, podemos instalar RStudio sin miedo al éxito.
+
+- Ir para [https://posit.co/download/rstudio-desktop/](https://posit.co/download/rstudio-desktop/).
+- Click en el botón _**Download RStudio Desktop for Windows**_.
+    - El nombre del archivo es **RStudio-2023.09.1-494.exe**.
+- Una vez más, con confianza, vamos a clickar _Next_ hasta terminar la instalación.
+- Si todo salió bien, aparecerá el ícono de RStudio en el escritorio. :)
+
+# Plano B
+
+Si por alguna razón no se pudo instalar R ni RStudio. Podemos usar la versión en nube.
+
+- Ir para [https://posit.cloud/](https://posit.cloud/)
+- Click en _**Get Started**_.
+- Click en __**Learn More**_ en la **Cloud Free**. (La versión gratuita)
+- Click en _**Sign Up**_
+- Crear la cuenta y luego es cuestión de loggearse. 
+
+Y eso es todo.^[Por ahora...]
+
