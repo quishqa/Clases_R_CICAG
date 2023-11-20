@@ -13,10 +13,21 @@ asu_pm25$date <- as.POSIXct(
            "%Y-%m-%dT%H:%M:%S-03:00")
 )
 
+# Ojo que los datos están al revés
+all_date <- data.frame(
+  date = seq(
+    asu_pm25$date[nrow(asu_pm25)],
+    asu_pm25$date[1],
+    by = "hour")
+  )
+
+asu_pm25 <- merge(all_date, asu_pm25, all = T)
+
+
 # Concentración média horaria
-mean(asu_pm25$value)
-min(asu_pm25$value)
-max(asu_pm25$value)
+mean(asu_pm25$value, na.rm = T)
+min(asu_pm25$value, na.rm = T)
+max(asu_pm25$value, na.rm = T)
 
 # En Asunción se sobrepasa los niveles de la OMS de [PM2.5]?
 # ECA PM2.5 25 ug/m3
@@ -64,6 +75,11 @@ lines(pm25_hour$date, pm25_hour$value, col = "darkorange2",
       lwd = 2)
 points(pm25_hour$date, pm25_hour$value, col = "darkorange2",
        pch = 19)
+
+# Boxplot horarios
+plot(as.factor(format(asu_pm25$date, "%H")), asu_pm25$value,
+     xlab = "Hora Local", ylab = "[ug/m3]", col = "peru")
+
 # Día con mayor concentración
 pm25_week <- aggregate(asu_pm25["value"],
                        format(asu_pm25["date"], "%w"),
