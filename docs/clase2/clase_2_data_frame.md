@@ -30,6 +30,11 @@ mario.calderon@iag.usp.br
     * Pasar para tipo `POSIXct`, y usar `format(variable_fecha, "%j")`
 * Profe, dónde encontramos los `%j`: [aquí](https://www.programiz.com/python-programming/datetime/strptime)
 ---
+## Dudas clase pasada :question::question::question: :
+
+* Toda la información del curso (presentación, scripts, y ejemplos) están disponibles en:
+[https://github.com/quishqa/Clases_R_CICAG](https://github.com/quishqa/Clases_R_CICAG) :octocat:
+---
 ## <!--fit--> Un repaso :eyeglasses:
 
 ---
