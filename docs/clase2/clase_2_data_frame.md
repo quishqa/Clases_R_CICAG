@@ -33,7 +33,7 @@ mario.calderon@iag.usp.br
 ## Dudas clase pasada :question::question::question: :
 
 * Toda la información del curso (presentación, scripts, y ejemplos) están disponibles en:
-[https://github.com/quishqa/Clases_R_CICAG](https://github.com/quishqa/Clases_R_CICAG) :octocat:
+[https://github.com/quishqa/Clases_R_CICAG](https://github.com/quishqa/Clases_R_CICAG) :gift:
 ---
 ## <!--fit--> Un repaso :eyeglasses:
 
