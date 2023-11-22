@@ -5,14 +5,14 @@ math: mathjack
 style: |
 ---
 
-# Curso de R para analísis de calidad de aire y meteorología :sunny: :earth_americas: :factory: 
+# Curso de R para analísis de calidad de aire y meteorología - Día 2 :sunny: :earth_americas: :factory: 
 
 Mario Gavidia-Calderón
 mario.calderon@iag.usp.br
 
 ---
 
-## Menú
+## Menú :clipboard:
 
 * ~~Introducción: Por qué R?~~
 * ~~Syntaxis básica.~~
@@ -20,7 +20,7 @@ mario.calderon@iag.usp.br
 * Bonus track: Absolver dudas particulares.
 ![bg left height:4in](https://scontent.fcgh22-1.fna.fbcdn.net/v/t1.6435-9/138517430_720584161924830_2292600382378387368_n.jpg?stp=cp0_dst-jpg_e15_p320x320_q65&_nc_cat=111&ccb=1-7&_nc_sid=3c63d6&_nc_ohc=O5UnrkYpuuIAX9BtCLF&_nc_ht=scontent.fcgh22-1.fna&oh=00_AfD7obht1ijFnPAGL3VtHLYzBZdt-LNhPfj-STKYXQ5ydA&oe=658309BA)
 ---
-## Dudas clase pasada:
+## Dudas clase pasada :question::question::question: :
 
 * _tengo archivo .txt de datos es mejor pasar a una base de datos SQL antes de trabajar con R o es mejor trabajar directamente con R?_
     * Directo en R, sin miedo al éxito.
@@ -30,19 +30,19 @@ mario.calderon@iag.usp.br
     * Pasar para tipo `POSIXct`, y usar `format(variable_fecha, "%j")`
 * Profe, dónde encontramos los `%j`: [aquí](https://www.programiz.com/python-programming/datetime/strptime)
 ---
-## <!--fit--> Un repaso.
+## <!--fit--> Un repaso :eyeglasses:
 
 ---
 ## Data Frame
 
 * Un **`data.frame`** es un **tabla**.
-* Es una **matriz indexada**: las columnas y filas tienen **nombre**.
+* Es una **matriz indexada**: las columnas y filas tienen **nombre**. :name_badge:
 * Cada **columna** es una **variable**. :arrow_down_small:
 * Cada **fila** es una **observación**. :arrow_forward:
 * También es un conjunto de **vectores**.
 ---
 
-## Qué tenemos que aprender:
+## Qué tenemos que aprender :books: :
 
 * Seleccionar una columna.
 * Seleccionar una fila.
@@ -64,8 +64,8 @@ mario.calderon@iag.usp.br
 
 * `TRUE` = 1
 * `FALSE`= 0
-* Una conjunción es **Y**, en R es **`&`**, equivale a $\times$.
-* Una disjunción es **O**, en R es **`|`**, equivale a $+$
+* Una conjunción es **Y**, en R es **`&`**, equivale a :heavy_multiplication_x: .
+* Una disjunción es **O**, en R es **`|`**, equivale a :heavy_plus_sign: .
 ---
 
 ## Más operadores lógicos
@@ -76,7 +76,7 @@ mario.calderon@iag.usp.br
 * No es igual qué: `!=`
 
 ---
-## `subset()`
+## `subset()` :scissors:
 
 * `?subset`
     * Genera un subconjunto de vectores, matrices, o data frames que **satisfacen las condiciones**.
