@@ -40,6 +40,8 @@ df <- read.table(ubicacion_de_archivo,
                  sep = ",",
                  dec = ".",
                  header = TRUE)
+
+* `ubicacion_de_archivo` puede ser seleccionado usando `file.choose()`
 ```
 ---
 ## Algunas consideraciones
