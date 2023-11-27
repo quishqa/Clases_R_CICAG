@@ -55,6 +55,8 @@ _(The Turing Way)_
 ---
 ## Packages everywhere
 * Para instalar: `install.packages("nombre_del_paquete")` :cd:
+* Por ejemplo, para instalar [`openair`](https://bookdown.org/david_carslaw/openair/): `install.packaes("openair")`
+* Para cargar el paquete: `library(openair)`
 * Es muy probable que ya exista un _package_ para resolver tu problema.:grinning:
 ---
 ## <!--fit--> :hand: al :computer:
