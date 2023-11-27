@@ -32,6 +32,11 @@ mario.calderon@iag.usp.br
 
 ---
 ## Packages everywhere
+* [De wikipedia](https://en.wikipedia.org/wiki/R_package): Los paquetes son **una extensión** al lenguaje de programación R.
+* Como los **plug-in** que instalamos en nuestro _browser_. :steam_locomotive:
+
+---
+## Packages everywhere
 
 "All the easy problem have already been solve"
 _(The Turing Way)_
@@ -42,15 +47,15 @@ _(The Turing Way)_
 
 ---
 ## Packages everywhere
-- **raster**: Para trabajar con los datos `tif` y `netcdf`. :satellite:
-- **sf**: Casi ArcGis. :earth_americas:
-- **openair**: Para trabajar con datos de contaminación atmosférica. :factory:
-- **reim**: Bajar datos METAR. :airplane:
-- Qué dice el público? :microphone:
+* **raster**: Para trabajar con los datos `tif` y `netcdf`. :satellite:
+* **sf**: Casi ArcGis. :earth_americas:
+* **openair**: Para trabajar con datos de contaminación atmosférica. :factory:
+* **reim**: Bajar datos METAR. :airplane:
+* Qué dice el público? :microphone:
 ---
 ## Packages everywhere
-- Para instalar: `install.packages("nombre_del_paquete")` :cd:
-- Es muy probable que ya exista un _package_ para resolver tu problema.:grining:
+* Para instalar: `install.packages("nombre_del_paquete")` :cd:
+* Es muy probable que ya exista un _package_ para resolver tu problema.:grinning:
 ---
 ## <!--fit--> :hand: al :computer:
 
