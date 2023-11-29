@@ -23,6 +23,13 @@ all_date <- data.frame(
 
 asu_pm25 <- merge(all_date, asu_pm25, all = T)
 
+plot(asu_pm25$date,
+     asu_pm25$value,
+     t = "l",
+     col = "red",
+     xlab = "2023",
+     ylab = "PM2.5 [ug/m3]",
+     main = "Asunción")
 
 # Concentración média horaria
 mean(asu_pm25$value, na.rm = T)
